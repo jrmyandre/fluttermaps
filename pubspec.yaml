@@ -1,0 +1,24 @@
+name: flutter_google_map_testing
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=2.19.2 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  dio: 
+  google_maps_flutter:
+  flutter_polyline_points:
+  firebase_core:
+  firebase_database:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
